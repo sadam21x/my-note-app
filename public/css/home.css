@@ -1,0 +1,57 @@
+.date-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.date-bar h5 {
+    font-weight: bold;
+}
+
+.circle-button {
+    height: 40px;
+    width: 40px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle-button-sm {
+    height: 25px;
+    width: 25px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.new-note-button {
+    box-shadow: 5px 5px 8px #888888;
+}
+
+.card-container {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card {
+    margin: 5px;
+    width: 18rem;
+    height: 12rem;
+    background-color: lemonchiffon;
+}
+
+.card-body {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.card-title {
+    font-weight: bold;
+}
